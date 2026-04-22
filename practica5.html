@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo - Landing Page Personal</title>
+</head>
+<body>
+
+    <div id="top"></div>
+
+    <!-- ================================================
+         1. MENÚ DE NAVEGACIÓN (header)
+         Actividad 1: lista desordenada convertida en menú
+    ================================================ -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyecto">Proyecto Destacado</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================================================
+         SECCIÓN: INICIO
+    ================================================ -->
+    <section id="inicio">
+        <h1>Hola, soy Paulo</h1>
+        <p>Estudiante de Desarrollo Web en la Universidad Nacional Amazónica de Madre de Dios. Apasionado por la tecnología y el desarrollo de soluciones web.</p>
+    </section>
+
+    <!-- ================================================
+         ACTIVIDAD 2: Tabla de contenidos (enlace internos)
+         y secciones con lorem ipsum
+    ================================================ -->
+    <section id="tabla-contenidos">
+        <h2>Tabla de Contenidos</h2>
+        <ul>
+            <li><a href="#seccion1">Capítulo 1: Introducción al Desarrollo Web</a></li>
+            <li><a href="#seccion2">Capítulo 2: HTML y Estructura</a></li>
+            <li><a href="#seccion3">Capítulo 3: Buenas Prácticas</a></li>
+        </ul>
+    </section>
+
+    <section id="seccion1">
+        <h2>Capítulo 1: Introducción al Desarrollo Web</h2>
+        <ul>
+            <li>Tema 1.1: Historia de la web</li>
+            <li>Tema 1.2: Cómo funciona un navegador</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a href="#top">Volver arriba</a></p>
+    </section>
+
+    <section id="seccion2">
+        <h2>Capítulo 2: HTML y Estructura</h2>
+        <ul>
+            <li>Tema 2.1: Etiquetas semánticas</li>
+            <li>Tema 2.2: Atributos y valores</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+        <p><a href="#top">Volver arriba</a></p>
+    </section>
+
+    <section id="seccion3">
+        <h2>Capítulo 3: Buenas Prácticas</h2>
+        <ul>
+            <li>Tema 3.1: Validación W3C</li>
+            <li>Tema 3.2: Accesibilidad web</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+        <p><a href="#top">Volver arriba</a></p>
+    </section>
+
+    <!-- ================================================
+         2. SECCIÓN HABILIDADES (nueva - Actividad 5)
+    ================================================ -->
+    <section id="habilidades">
+        <h2>Habilidades y Tecnologías</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git y GitHub</li>
+            <li>Diseño Responsivo</li>
+            <li>Accesibilidad Web</li>
+            <li>SEO básico</li>
+        </ul>
+    </section>
+
+    <!-- ================================================
+         3. SECCIÓN PROYECTO DESTACADO (nueva - Actividad 5)
+    ================================================ -->
+    <section id="proyecto">
+        <h2>Proyecto Destacado</h2>
+        <h3>Landing Page Personal</h3>
+        <img
+            src="imagenes/proyecto-destacado.jpg"
+            alt="Captura de pantalla de la landing page personal de Paulo"
+            width="600"
+            height="400"
+        >
+        <p>Este proyecto es mi landing page personal desarrollada como parte del curso de Desarrollo Web I en la Universidad Nacional Amazónica de Madre de Dios. Incorpora conceptos de HTML5 semántico, listas, enlaces internos y externos, imágenes optimizadas y multimedia nativo.</p>
+        <a href="https://github.com/paulobueno18" target="_blank">Ver repositorio en GitHub</a>
+    </section>
+
+    <!-- ================================================
+         ACTIVIDAD 3: GALERÍA DE IMÁGENES
+    ================================================ -->
+    <section id="galeria">
+        <h2>Galería</h2>
+        <img
+            src="imagenes/foto1.jpg"
+            alt="Imagen representativa del proyecto número uno"
+            width="300"
+            height="200"
+        >
+        <img
+            src="imagenes/foto2.jpg"
+            alt="Imagen representativa del proyecto número dos"
+            width="300"
+            height="200"
+        >
+        <img
+            src="imagenes/foto3.jpg"
+            alt="Imagen representativa del proyecto número tres"
+            width="300"
+            height="200"
+        >
+
+        <!-- VIDEO -->
+        <h3>Video del Proyecto</h3>
+        <video controls width="640" height="360" poster="imagenes/foto1.jpg">
+            <source src="videos/mi-video.mp4" type="video/mp4">
+            <source src="videos/mi-video.webm" type="video/webm">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+
+        <!-- AUDIO -->
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audio/podcast-intro.mp3" type="audio/mpeg">
+            <source src="audio/podcast-intro.ogg" type="audio/ogg">
+            Tu navegador no soporta la etiqueta de audio.
+        </audio>
+    </section>
+
+    <!-- ================================================
+         ACTIVIDAD 1: Índice de libro con lista anidada
+    ================================================ -->
+    <section id="indice">
+        <h2>Índice del Informe</h2>
+        <ol>
+            <li>Capítulo 1: Fundamentos de HTML
+                <ul>
+                    <li>Estructura básica de un documento</li>
+                    <li>Etiquetas semánticas</li>
+                </ul>
+            </li>
+            <li>Capítulo 2: Listas y Enlaces
+                <ul>
+                    <li>Listas ordenadas y desordenadas</li>
+                    <li>Enlaces internos y externos</li>
+                </ul>
+            </li>
+            <li>Capítulo 3: Multimedia en HTML5
+                <ul>
+                    <li>Imágenes optimizadas</li>
+                    <li>Audio y video nativos</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <!-- ================================================
+         5. FOOTER ENRIQUECIDO (Actividad 5 + Actividad 2)
+    ================================================ -->
+    <footer id="contacto">
+        <p>&copy; 2026 Paulo. Todos los derechos reservados.</p>
+        <p>
+            <a href="mailto:22221036@unamad.edu.pe">22221036@unamad.edu.pe</a> |
+            <a href="tel:+51993018321">+51 993018321</a>
+        </p>
+    </footer>
+
+</body>
+</html>
