@@ -17,6 +17,9 @@ git add .
 git commit -m "descripcion de lo que cambiaste"
 git push
 ```
+## cuando modificamos el nombre del archivo
+git commit -m "Renombrar practica5 a trabajo 1"
+```
 
 ## NOTAS IMPORTANTES
 
