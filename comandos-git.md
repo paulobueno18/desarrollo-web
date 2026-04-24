@@ -16,8 +16,6 @@ git push -u origin master
 git add .
 git commit -m "descripcion de lo que cambiaste"
 git push
-```
-## cuando modificamos el nombre del archivo
 git commit -m "Renombrar practica5 a trabajo 1"
 ```
 
@@ -29,3 +27,9 @@ git commit -m "Renombrar practica5 a trabajo 1"
   - "modifique footer"
   - "corregi errores index.html"
 - Los 3 comandos siempre van en orden: add → commit → push
+
+Comando,Acción
+git status           Verifica qué archivos han sido modificados.
+git add .            Prepara los archivos para la subida.
+"git commit -m ""msg""", "Crea una ""foto"" de tus cambios actuales."
+git push             Actualiza el repositorio en GitHub con tus cambios.
