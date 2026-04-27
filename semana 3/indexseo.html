@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="es"> <head>
+<html lang="es">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Receta de Ceviche Auténtico | Cocina Tradicional</title>
-    <meta name="description" content="Aprende a preparar el auténtico ceviche paso a paso. Consejos y secretos tradicionales para un plato perfecto.">
+    <meta name="description"
+        content="Aprende a preparar el auténtico ceviche paso a paso. Consejos y secretos tradicionales para un plato perfecto.">
 
     <meta property="og:title" content="Receta de Ceviche Auténtico">
-    <meta property="og:description" content="Descubre todos los secretos del ceviche tradicional. ¡Te sorprenderá lo fácil que es!">
+    <meta property="og:description"
+        content="Descubre todos los secretos del ceviche tradicional. ¡Te sorprenderá lo fácil que es!">
     <meta property="og:image" content="https://mirecetario.com/images/ceviche.jpg">
     <meta property="og:url" content="https://mirecetario.com/recetas/ceviche">
     <meta property="og:type" content="article">
-</head> <body>
+</head>
+
+<body>
     <header>
         <h1>Bienvenidos a Tradición Marina</h1>
         <nav>
@@ -28,24 +34,55 @@
     <main>
         <section id="menu">
             <h2>Nuestra Carta</h2>
-            
-            <article> <img src="https://www.galiciamarisco.com/modules/ybc_blog/views/img/post/recetas-saludables-marisco-pescado.jpg" 
-                     alt="Plato de pescado frito crujiente acompañado de ensalada fresca"
-                     width="260" height="260">
+
+            <article>
+                <img src="https://www.galiciamarisco.com/modules/ybc_blog/views/img/post/recetas-saludables-marisco-pescado.jpg"
+                    alt="Plato de pescado frito crujiente acompañado de ensalada fresca" width="260" height="260">
                 <p>Plato de pescado frito acompañado de ensalada.</p>
             </article>
 
             <article>
-                <img src="https://i0.wp.com/cocineando.com/wp-content/uploads/2019/03/receta-de-suquet-de-rape.jpg?resize=1024%2C585&ssl=1" 
-                     alt="Suquet de rape servido en cazuela con salsa de especias"
-                     width="260" height="260">
+                <img src="https://i0.wp.com/cocineando.com/wp-content/uploads/2019/03/receta-de-suquet-de-rape.jpg?resize=1024%2C585&ssl=1"
+                    alt="Suquet de rape servido en cazuela con salsa de especias" width="260" height="260">
                 <p>Menú realizado con base a pescado y mariscos acompañados de una deliciosa salsa de especias.</p>
-            </article>            
+            </article>
+
+            <article>
+                <h2>Calidad de Pescados y Mariscos</h2>
+                <p>
+                    La materia prima para brindar a nuestros clientes cuenta con un control sanitario
+                    especial para su total seguridad.
+                </p>
+            </article>
+
+            <article id="personalizacion">
+                <h2>Arma tu plato cevichero</h2>
+                <p>Selecciona los acompañamientos para tu ceviche:</p>
+
+                <div>
+                    <img src="https://plazavea.vteximg.com.br/arquivos/ids/646182-418-418/58834.jpg"
+                        alt="Ají limo fresco" width="60" height="50">
+                    <button aria-label="Agregar ají limo">➕</button>
+                </div>
+
+                <div role="list">
+                    <div role="listitem">
+                        <img src="https://www.recetasnestlecam.com/sites/default/files/inline-images/camote-fresco-cortado.jpg"
+                            alt="Camote cocido" width="60" height="50">
+                        <span id="ingrediente-camote">Camote</span>
+
+                        <button aria-labelledby="ingrediente-camote" aria-describedby="desc-agregar">➕</button>
+
+                        <span id="desc-agregar" hidden>Agregar este ingrediente al plato</span>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Tradición Marina - Cocina con Pasión</p>
     </footer>
+</body>
 
-</body> </html>
+</html>
