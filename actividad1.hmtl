@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Restaurante El Sabor | Comida Tradicional y Auténtica</title>
+    <meta name="description" content="Disfruta de la mejor experiencia gastronómica en El Sabor. Platos tradicionales preparados con ingredientes frescos y pasión. ¡Reserva tu mesa hoy!">
+
+    <meta property="og:title" content="El Sabor - Tradición en cada bocado">
+    <meta property="og:description" content="Ven a conocer el restaurante más emblemático de la ciudad. Calidad y sabor en un solo lugar.">
+    <meta property="og:image" content="https://elsabor.com/images/restaurante-perfil.jpg">
+    <meta property="og:url" content="https://www.elsabor.com">
+    <meta property="og:type" content="website">
+
+</head>
+<body>
+
+    <header>
+        <h1>Restaurante El Sabor</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentacion">
+            <h2>Bienvenidos a nuestra mesa</h2>
+            <img src="salon-restaurante.jpg" alt="Interior del restaurante El Sabor con mesas de madera decoradas y ambiente acogedor">
+            
+            <p>Somos expertos en brindar momentos inolvidables a través del paladar.</p>
+            
+            <button aria-label="Reservar mesa ahora">🍽️</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Restaurante El Sabor - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
