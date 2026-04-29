@@ -1,45 +1,39 @@
-/* 1. Reseteo y Box Model (Semana 4) */
+/* Reseteo Profesional (Semana 4) */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Criterio profesional segun el sílabo */
-}
-
-/* 2. Colores y Tipografía (Semana 4 - Unidades de medida) */
-:root {
-    --rojo-parrilla: #8b0000;
-    --dorado-detalle: #d4af37;
-    --blanco-fondo: #f9f9f9;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--blanco-fondo);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #fcfcfc;
     color: #333;
     line-height: 1.6;
+    scroll-behavior: smooth;
 }
 
-/* 3. Navegación (Semana 2 - Selectores) */
+/* Navegación */
 .main-header {
-    background-color: var(--rojo-parrilla);
+    background-color: #8b0000;
     color: white;
-    padding: 1.5rem 0;
-    position: sticky; /* Posicionamiento - Semana 4 */
+    padding: 1rem 5%;
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 .main-header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .main-header ul {
-    list-style: none;
     display: flex;
+    list-style: none;
     gap: 20px;
 }
 
@@ -47,40 +41,109 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
 }
 
-.main-header a:hover {
-    color: var(--dorado-detalle); /* Pseudo-clases - Semana 4 */
-}
-
-/* 4. Estructura del Menú (Semana 4 - Diseño estructural) */
-.grid-menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.item-menu {
-    background: white;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 8px;
+/* Hero Section (Imagen de Alta Resolución) */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../assets/img/pexels-caricatte-14823745.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.btn-cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #d4af37;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+/* Layout y Grids (Box Model) */
+.container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #8b0000;
+    font-size: 2.2rem;
+}
+
+.grid-menu,
+.contacto-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Tarjetas (Card Design) */
+.card,
+.contacto-card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    border: 1px solid #eee;
 }
 
-.item-menu:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+.card:hover {
+    transform: translateY(-10px);
 }
 
-.item-menu img {
-    width: 100%; /* Imágenes optimizadas - Semana 2 */
+.card img {
+    width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 4px;
-}j
+}
+
+.card-info,
+.contacto-card {
+    padding: 20px;
+    text-align: center;
+}
+
+.precio,
+.contacto-link {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #8b0000;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.main-footer {
+    background: #111;
+    color: #888;
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+}

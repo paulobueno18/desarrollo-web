@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Churrasquería El Rinconcito del Patricio | Sabor en Puerto Maldonado</title>
-    
-    <meta name="description" content="Disfruta de la mejor parrillada y cortes de carne al carbón en El Rinconcito del Patricio. Tradición y sabor amazónico en Puerto Maldonado.">
-    <meta name="keywords" content="Churrasquería, Puerto Maldonado, Madre de Dios, Parrilla, El Rinconcito del Patricio, Carne, UNAMAD">
+
+    <meta name="description"
+        content="Disfruta de la mejor parrillada al carbón en El Rinconcito del Patricio. Tradición amazónica en Puerto Maldonado.">
+    <meta name="keywords" content="Churrasquería, Puerto Maldonado, Parrilla, Carne, UNAMAD, Ingeniería de Sistemas">
 
     <meta property="og:title" content="Churrasquería El Rinconcito del Patricio">
-    <meta property="og:description" content="¿Hambre de una buena parrillada? Ven al Rinconcito del Patricio y descubre el verdadero sabor del carbón en la selva.">
-    <meta property="og:image" content="https://tu-proyecto-unamad.vercel.app/assets/img/og-churrasqueria.jpg">
-    <meta property="og:url" content="https://tu-proyecto-unamad.vercel.app">
+    <meta property="og:description"
+        content="El auténtico sabor del carbón en el corazón de la selva. ¡Descubre nuestros 5 platos especiales!">
+    <meta property="og:image" content="assets/img/pexels-caricatte-14823745.jpg">
+    <meta property="og:url" content="https://tu-sitio-unamad.com">
     <meta property="og:type" content="website">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header class="main-header">
@@ -24,35 +28,105 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#menu">Nuestro Menú</a></li>
-                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="inicio" class="hero">
-            <h1>Sabor y Tradición a la Parrilla</h1>
-            <p>Ubicados en el corazón de Puerto Maldonado, Madre de Dios.</p>
-            <a href="#reservas" class="btn-principal">Reserva tu mesa ahora</a>
+            <div class="hero-content">
+                <h1>Sabor y Tradición a la Parrilla</h1>
+                <p>Cortes seleccionados con el auténtico toque amazónico de Madre de Dios.</p>
+                <a href="#menu" class="btn-cta">Ver Especialidades</a>
+            </div>
         </section>
 
-        <section id="menu" class="menu-container">
-            <h2>Especialidades de la Casa</h2>
+        <section id="menu" class="container">
+            <h2 class="section-title">Nuestras 5 Especialidades</h2>
+
             <div class="grid-menu">
-                <article class="item-menu">
-                    <img src="assets/img/corte-especial.jpg" alt="Churrasco especial del Patricio">
-                    <h3>Churrasco al Patricio</h3>
-                    <p>Corte tierno de res con guarniciones regionales.</p>
-                    <span class="precio">S/ 42.00</span>
+                <article class="card">
+                    <img src="assets/img/plato1.webp" alt="Picanha Premium al carbón">
+                    <div class="card-info">
+                        <h3>Picanha al Carbón</h3>
+                        <p>Exquisito corte con yuca sancochada y ensalada regional.</p>
+                        <span class="precio">S/ 45.00</span>
+                    </div>
                 </article>
+
+                <article class="card">
+                    <img src="assets/img/plato2.webp" alt="Churrasco Tradicional">
+                    <div class="card-info">
+                        <h3>Churrasco del Patricio</h3>
+                        <p>El clásico de la casa, jugoso y asado a fuego lento.</p>
+                        <span class="precio">S/ 38.00</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="assets/img/plato3.webp" alt="Lomo Fino Amazónico">
+                    <div class="card-info">
+                        <h3>Lomo Fino Amazónico</h3>
+                        <p>Suave lomo fino con el aroma de la selva.</p>
+                        <span class="precio">S/ 42.00</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="assets/img/plato4.webp" alt="Costillas BBQ">
+                    <div class="card-info">
+                        <h3>Costillas al Carbón</h3>
+                        <p>Bañadas en nuestra salsa artesanal secreta.</p>
+                        <span class="precio">S/ 40.00</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="assets/img/plato5.webp" alt="Gran Mix Parrillero">
+                    <div class="card-info">
+                        <h3>Gran Mix del Patricio</h3>
+                        <p>Para compartir: Variedad de carnes, chorizos y guarniciones.</p>
+                        <span class="precio">S/ 75.00</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="container">
+            <h2 class="section-title">Encuéntranos</h2>
+            <div class="contacto-grid">
+
+                <div class="contacto-card">
+                    <span class="icon">📞</span>
+                    <h3>Llámanos</h3>
+                    <p>Reservas y pedidos:</p>
+                    <a href="tel:+51993018321" class="contacto-link">993 018 321</a>
                 </div>
+
+                <div class="contacto-card">
+                    <span class="icon">✉️</span>
+                    <h3>Escríbenos</h3>
+                    <p>Consultas por correo:</p>
+                    <a href="mailto:cesarbueno677@gmail.com" class="contacto-link">cesarbueno677@gmail.com</a>
+                </div>
+
+                <div class="contacto-card">
+                    <span class="icon">📍</span>
+                    <h3>Visítanos</h3>
+                    <p>Puerto Maldonado, Madre de Dios</p>
+                    <p>Av. andres mallea con PSJ. iquique</p>
+                </div>
+
+            </div>
         </section>
     </main>
 
     <footer class="main-footer">
-        <p>&copy; 2026 El Rinconcito del Patricio - Proyecto Académico UNAMAD</p>
-        <p>Desarrollado para el curso de Desarrollo de Aplicaciones Web I</p>
+        <p>&copy; 2026 El Rinconcito del Patricio | UNAMAD - Ingeniería de Sistemas</p>
+        <p>Estudiante: Cesar Bueno | Unidad 1</p>
     </footer>
 
 </body>
+
 </html>
