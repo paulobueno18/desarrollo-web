@@ -1,0 +1,86 @@
+/* 1. Reseteo y Box Model (Semana 4) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Criterio profesional segun el sílabo */
+}
+
+/* 2. Colores y Tipografía (Semana 4 - Unidades de medida) */
+:root {
+    --rojo-parrilla: #8b0000;
+    --dorado-detalle: #d4af37;
+    --blanco-fondo: #f9f9f9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--blanco-fondo);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 3. Navegación (Semana 2 - Selectores) */
+.main-header {
+    background-color: var(--rojo-parrilla);
+    color: white;
+    padding: 1.5rem 0;
+    position: sticky; /* Posicionamiento - Semana 4 */
+    top: 0;
+    z-index: 1000;
+}
+
+.main-header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-header a:hover {
+    color: var(--dorado-detalle); /* Pseudo-clases - Semana 4 */
+}
+
+/* 4. Estructura del Menú (Semana 4 - Diseño estructural) */
+.grid-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item-menu {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.item-menu:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.item-menu img {
+    width: 100%; /* Imágenes optimizadas - Semana 2 */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}j
